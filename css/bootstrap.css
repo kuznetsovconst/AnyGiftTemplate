@@ -4246,7 +4246,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-nav > li > a {
     font-size: 20px;
-  line-height: 60px;
+    line-height: 60px;
+    box-sizing: border-box;
+    display: block;
 }
 
 @media (max-width: 767px) {
@@ -4525,7 +4527,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #00adcf;
   background-color: transparent;
-    border-bottom: 3px solid #00adcf;
+  border-bottom: 3px solid #00adcf;
+  height: 60px;
+  box-sizing: border-box;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -4533,6 +4537,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #00adcf;
   border-bottom: 2px solid #00adcf;
+  box-sizing: border-box;
+  height: 60px;
 }
 
 .navbar-inverse .navbar-nav > .disabled > a,
