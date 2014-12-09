@@ -4974,7 +4974,9 @@ a.list-group-item.active > .badge,
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out; 
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .thumbnail > img {

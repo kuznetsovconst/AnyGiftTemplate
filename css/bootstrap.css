@@ -4981,6 +4981,8 @@ a.list-group-item.active > .badge,
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .thumbnail > img {
