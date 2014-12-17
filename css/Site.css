@@ -63,6 +63,17 @@ textarea {
     max-height: 600px;
 }
 
+.auth-reg {
+    height: 350px;
+    overflow: hidden;
+    min-width: 1200px;
+    max-height: 350px;
+}
+.header {
+    text-align: center;
+}
+
+
 /* styles for validation helpers */
 .field-validation-error {
     color: #b94a48;
