@@ -124,13 +124,20 @@ input[type="checkbox"].input-validation-error {
 .pills-panel {
     margin-top: 2em;
     margin-bottom: 2em;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.rule {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
 }
 
 .mytab > li > a {
     margin-right: 0px;
     font-size: 1.3em;
     font-weight: normal;
-    max-width: 760px;
 }
 
 
