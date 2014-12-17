@@ -102,3 +102,45 @@ input[type="checkbox"].input-validation-error {
 .orange-block {
     background-color: #e9571b;
 }
+
+.jumbotron {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.jumbotron > h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.brief {
+    margin-bottom: 2em;
+}
+
+.pills-panel {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.mytab > li > a {
+    margin-right: 0px;
+    font-size: 1.3em;
+    font-weight: normal;
+    max-width: 760px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
